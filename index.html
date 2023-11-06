@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dailer</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div>
+      <div>
+          <form action="">
+            <input id="show" value=""/>
+            <div class="grid_container">
+              <button type="button" class="key" value="1">1</button>
+              <button type="button" class="key" value="2">2 <span>ABC</span></button>
+              <button type="button" class="key" value="3">3 <span>DEF</span></button>
+              <button type="button" class="key" value="4">4 <span>GHI</span></button>
+              <button type="button" class="key" value="5">5 <span>JKL</span></button>
+              <button type="button" class="key" value="6">6 <span>MNO</span></button>
+              <button type="button" class="key" value="7">7 <span>PQRS</span></button>
+              <button type="button" class="key" value="8">8 <span>TUV</span></button>
+              <button type="button" class="key" value="9">9 <span>WXYZ</span></button>
+              <button type="button" class="key" value="*">*</button>
+              <button type="button" class="key" value="0">0</button>
+              <button type="button" class="key" value="#">#</button>
+              <button class="call" type="submit" id="call">Call</button>
+              <button class="backspace" id="backspace" type="button">
+                <i class="fa-solid fa-delete-left fa-2xs"></i>
+              </button>
+            </div>
+          </form>
+      </div>
+
+      <div class="menu">
+        <div>
+            <img src="images/star-solid.svg" alt="Favourites">
+            <p>Favourites</p>
+        </div>
+        <div>
+            <img src="images/clock-solid.svg" alt="recents" class="resize">
+            <p>Recents</p>
+        </div>
+        <div>
+            <img src="images/people-group-solid.svg" alt="contact">
+            <p>Contact</p>
+        </div>
+        <div class="active">
+            <img src="images/keyboard-solid.svg" alt="keypad">
+            <p>Keypad</p>
+        </div>
+        <div>
+            <img src="images/voicemail-solid.svg" alt="voicemial">
+            <p>Voicemail</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
