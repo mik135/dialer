@@ -14,10 +14,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    min-height: 100vh;
-    max-height: 100vh;
     /* gap: 1em; */
-    overflow: hidden;
 
     & > div {
         min-height: 100vh;
